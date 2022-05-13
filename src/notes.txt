@@ -1,0 +1,15 @@
+React controls:
+    What is shown (the value of the component)
+    What happens [when] the user types (this is kept in state)
+    What is displayed
+
+    Input elements controlled in this way are called "controlled components"
+
+    Since value attribute is set on element, displayed value will always be fullName - making the React state the "source of truth"
+
+Since handleChange runs on every keystroke to update the React state, the displayed value will update as the user types.
+
+You can validate a form as a user types
+
+With a controlled component every state mutation will have an associate handler function. This makes it easy to modify or validate user input.
+
