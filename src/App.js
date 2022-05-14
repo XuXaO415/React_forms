@@ -1,7 +1,7 @@
 import React from 'react';
 import UserForm from './UserForm';
 import ShoppingList from './ShoppingList';
-import Item from './Item';
+import SimpleForm from './SimpleValidation';
 import './App.css';
 
 function App() {
@@ -9,6 +9,8 @@ function App() {
     <div className='App'>
       <UserForm />
       <ShoppingList />
+      <SimpleForm />
+ 
     </div>
   )
 }
