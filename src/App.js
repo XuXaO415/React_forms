@@ -3,6 +3,7 @@ import UserForm from './UserForm';
 import ShoppingList from './ShoppingList';
 import SimpleForm from './SimpleValidation';
 import './App.css';
+import SignupForm from './SimpleValidation';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <UserForm />
       <ShoppingList />
       <SimpleForm />
+      <SignupForm />
  
     </div>
   )
